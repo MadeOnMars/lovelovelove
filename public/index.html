@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Love, love, love - a Progressive Web App to send some love</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0">
+    <!-- Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Love, love, love">
+
+    <!-- iPad with high-resolution Retina display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon" sizes="152x152" href="images/icons/icon-apple-152x152.png">
+    <!-- iPad with high-resolution Retina display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon" sizes="144x144" href="images/icons/icon-apple-144x144.png">
+    <!-- iPhone with high-resolution Retina display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon" sizes="120x120" href="images/icons/icon-apple-120x120.png">
+    <!-- iPhone with high-resolution Retina display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon" sizes="114x114" href="images/icons/icon-apple-114x114.png">
+    <!-- iPad mini and the first- and second-generation iPad on iOS ≥ 7: -->
+    <link rel="apple-touch-icon" sizes="76x76" href="images/icons/icon-apple-76x76.png">
+    <!-- iPad mini and the first- and second-generation iPad on iOS ≤ 6: -->
+    <link rel="apple-touch-icon" sizes="72x72" href="images/icons/icon-apple-72x72.png">
+    <!-- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <link rel="apple-touch-icon" href="images/icons/icon-apple-72x72.png">
+
+    <!-- iPhone SPLASHSCREEN -->
+    <link href="images/splash/splash-apple-320x460.png" media="(device-width: 320px)" rel="apple-touch-startup-image">
+    <!-- iPhone (Retina) SPLASHSCREEN -->
+    <link href="images/splash/splash-apple-640x920.png" media="(device-width: 320px) and (device-height: 460px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <!-- iPhone 5 (Retina) SPLASHSCREEN -->
+    <link href="images/splash/splash-apple-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <!-- iPad (non-Retina) (Portrait) -->
+    <link href="images/splash/splash-apple-768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" rel="apple-touch-startup-image" />
+    <!-- iPad (non-Retina) (Landscape) -->
+    <link href="images/splash/splash-apple-1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" rel="apple-touch-startup-image" />
+    <!-- iPad (Retina) (Portrait) -->
+    <link href="images/splash/splash-apple-1536x2008.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <!-- iPad (Retina) (Landscape) -->
+    <link href="images/splash/splash-apple-2048x1496.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+
+    <!-- Windows phone -->
+    <meta name="msapplication-TileImage" content="images/icons/icon-wp-144x144.png">
+    <meta name="msapplication-TileColor" content="#2e2e49">
+
+    <!-- Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="manifest.json">
+
+    <meta property="og:url" content="https://lovelovelove.xyz">
+    <meta property="og:site_name" content="Love, love, love | A simple Progressive Web App to send some love">
+    <meta property="og:title" content="Love, love, love">
+    <meta property="og:description" content="A simple Progressive Web App to send some love">
+    <meta property="og:image" content="https://lovelovelove.xyz/images/love-love-love-share.jpg">
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <meta property="twitter:site" content="https://lovelovelove.xyz">
+    <meta property="twitter:creator" content="Made On Mars">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Love, love, love">
+    <meta property="twitter:description" content="A simple Progressive Web App to send some love">
+    <meta property="twitter:image:src" content="https://lovelovelove.xyz/images/love-love-love-share.jpg">
+    <meta property="twitter:image:width" content="1200">
+    <meta property="twitter:image:height" content="630">
+  </head>
+  <body>
+    <header>
+      <nav id="menu">
+        <ul>
+          <li class="active"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 27"><defs><style>.cls-icon1{fill:none;stroke:#52527a;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="cls-icon1" d="M33,39.73a16.26,16.26,0,0,1-6.38-4.95h0A3.81,3.81,0,1,1,33,30.7h0a3.81,3.81,0,1,1,6.38,4.08h0A16.26,16.26,0,0,1,33,39.73Z" transform="translate(-19.5 -19.5)"/><circle class="cls-icon1" cx="13.5" cy="13.5" r="13"/></svg> Love, love, love</a></li>
+          <li><a href="https://www.made-on-mars.com">About us</a></li>
+          <li><a href="https://github.com/MadeOnMars/lovelovelove">See on Github</a></li>
+          <li id="hamburger" class="burgerMenuBtn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 21"><defs><style>.cls-icon6{fill:none;stroke:#ff006a;stroke-linecap:round;stroke-linejoin:round;}</style></defs><line class="cls-icon6" x1="0.5" y1="0.5" x2="25.5" y2="0.5"/><line class="cls-icon6" x1="0.5" y1="10.5" x2="25.5" y2="10.5"/><line class="cls-icon6" x1="0.5" y1="20.5" x2="25.5" y2="20.5"/></svg></li>
+        </ul>
+      </nav>
+      <ul id="param">
+        <li id="pushBtn" class="inactive"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.65 27.12"><defs><style>.cls-icon31,.cls-icon32{fill:none;stroke:#52527a;stroke-linecap:round;stroke-linejoin:round;}.cls-icon31{}.cls-icon32{}</style></defs><path class="cls-icon31" d="M946.72,40H959a4.29,4.29,0,0,1-4.29-4.29V30a8,8,0,1,0-16,0v5.77A4.29,4.29,0,0,1,934.45,40h12.27Z" transform="translate(-933.9 -19.45)"/><line class="cls-icon31" x1="12.82" y1="2.55" x2="12.82" y2="0.55"/><path class="cls-icon32" d="M950.39,42.3a3.71,3.71,0,1,1-7.41,0Z" transform="translate(-933.9 -19.45)"/></svg><span>Push notification</span></li>
+      </ul>
+    </header>
+    <div id="overlay">
+    </div>
+    <div id="navigation">
+      <div class="inner">
+        <div id="close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.31 27.31"><defs><style>.cls-icon7{fill:none;stroke:#ff006a;stroke-linecap:round;stroke-linejoin:round;stroke-width:1px;}</style></defs><line class="cls-icon7" x1="26.81" y1="0.5" x2="0.5" y2="26.81"/><line class="cls-icon7" x1="26.81" y1="26.81" x2="0.5" y2="0.5"/></svg></div>
+        <div id="illu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101 101"><defs><style>.cls-icon8{fill:none;stroke:#52527a;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="cls-icon8" d="M185.41,175.89a62.52,62.52,0,0,1-24.54-19h0a14.65,14.65,0,1,1,24.53-15.71h0a14.65,14.65,0,1,1,24.53,15.71h0a62.52,62.52,0,0,1-24.54,19Z" transform="translate(-134.9 -99.51)"/><circle class="cls-icon8" cx="50.5" cy="50.5" r="50"/></svg></div>
+        <ul id="mobileNav">
+          <li class="active"><a href="#">Love, love, love</a></li>
+          <li><a href="https://www.made-on-mars.com">About us</a></li>
+          <li><a href="https://github.com/MadeOnMars/lovelovelove">See on Github</a></li>
+        </ul>
+        <ul id="mobileParam">
+          <li id="mobilePushBtn">Push Notification</li>
+        </ul>
+        <div id="mobileFooter">
+          <a href="https://www.made-on-mars.com" target="_blank">Made On Mars</a>&nbsp;&nbsp;-&nbsp;&nbsp;2016
+        </div>
+      </div>
+    </div>
+    <div id="counter">
+      <span id="count">0</span>
+    </div>
+    <section id="mainContainer">
+      <div id="content">
+        <div id="legend">
+          <h1>Send some love</h1>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6.21 30.15"><defs><style>.cls-icon41{fill:none;stroke:#fff;stroke-linecap:round;stroke-miterlimit:10;}.cls-icon42{fill:#fff;}</style></defs><line class="cls-icon41" x1="3.11" y1="0.5" x2="3.11" y2="24.83"/><path class="cls-icon42" d="M511.59,409.14l-2.64-4.5c-.18-.31,0-.53.41-.53h5.27c.36,0,.59.22.41.53l-2.64,4.58A.47.47,0,0,1,511.59,409.14Z" transform="translate(-508.89 -379.28)"/></svg>
+        </div>
+        <div id="btn">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 141 141"><defs><style>.cls-icon51,.cls-icon52{fill:none;stroke-linecap:round;stroke-linejoin:round;}.cls-icon51{stroke:#fff;}.cls-icon52{stroke:url(#BtnGradient);}</style><linearGradient id="BtnGradient" x1="20.65" y1="20.65" x2="120.35" y2="120.35" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff006a"/><stop offset="1" stop-color="#ff713f"/></linearGradient></defs><path class="cls-icon51" d="M512,607.22a87.53,87.53,0,0,1-34.35-26.63h0a20.51,20.51,0,1,1,34.34-22h0a20.51,20.51,0,1,1,34.34,22h0A87.53,87.53,0,0,1,512,607.22Z" transform="translate(-441.5 -499.94)"/><circle class="cls-icon52" cx="70.5" cy="70.5" r="70"/></svg>
+        </div>
+      </div>
+    </section>
+    <section>
+
+    </section>
+    <footer>
+      <a href="https://www.made-on-mars.com" target="_blank">Made On Mars</a>&nbsp;&nbsp;-&nbsp;&nbsp;2016
+    </footer>
+  </body>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/hammer.min.js"></script>
+  <script src="/js/app.js"></script>
+</html>
