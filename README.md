@@ -2,7 +2,7 @@
 
 > by ![MOM](public/images/mom.gif) [Made On Mars](https://www.made-on-mars.com)
 
-A full working demo is available [here](https://lovelovelove.xyz). It's not the exact same code since this repo has been simplified for the tutorial.
+A full working demo is available [here](https://lovelovelove-inhlznspfi.now.sh). It's not the exact same code since this repo has been simplified for the tutorial.
 
 ![demo](public/images/demo-480.png)
 
